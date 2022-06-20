@@ -20,7 +20,7 @@ settings =
 		},
 	},
 	plugins={
-		["plugin.nativeChart"] =
+		["plugin.nativeCharts"] =
 		{
 			publisherId="tech.scotth",
 			marketplaceId="(replace with Account ID in account page)"
