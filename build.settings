@@ -1,0 +1,29 @@
+--
+
+
+settings =
+{
+	--[[
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	--]]
+
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+		},
+	},
+	plugins={
+		["plugin.nativeChart"] =
+		{
+			publisherId="tech.scotth",
+			marketplaceId="(replace with Account ID in account page)"
+		}
+	}
+}
